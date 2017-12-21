@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.example.aluno.calendario"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.applandeo:material-calendar-view:1.1.1'
+    compile 'com.prolificinteractive:material-calendarview:1.4.3'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.wdullaer:materialdatetimepicker:1.4.1'
+    testCompile 'junit:junit:4.12'
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffcdd2</color>
+    <color name="colorPrimaryDark">#cb9ca1</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mdtp_accent_color">#ffcdd2</color>
+    <color name="mdtp_accent_color_dark">#ffcdd2</color>
+    <color name="barSplash">#1874CD</color>
+</resources>
